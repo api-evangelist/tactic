@@ -1,20 +1,47 @@
 aid: tactic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tactic.png
 name: Tactic
-description: 'Tactic is a company surfaced as a portfolio company of lux-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Tactic was a cryptocurrency and digital-asset accounting platform founded in 2021 in
+  New York and backed by Lux Capital. Its product aggregated on-chain activity and exchange/custody
+  data (Coinbase and others) into a unified treasury view and crypto sub-ledger, automatically
+  categorizing transactions, calculating USD gain/loss and taxable events, and reconciling the
+  crypto sub-ledger to traditional accounting software such as QuickBooks. Tactic launched from
+  stealth in 2022 (originally on choosetactic.com, later the exact-match tactic.com) and raised
+  roughly $13.6M before being acquired by TaxBit in January 2023 to augment TaxBit''s digital-asset
+  accounting suite. The standalone product, developer portal, and API surface have been retired;
+  the tactic.com domain is now listed for sale and no independent developer surface remains.'
 url: https://raw.githubusercontent.com/api-evangelist/tactic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lux-capital
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-api-surface
+x-status: acquired
+x-acquired-by: taxbit
+x-acquired-date: '2023-01'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Cryptocurrency
+- Accounting
+- Fintech
+- Digital Assets
+- Treasury
+- Acquired
 - Ai
 apis: []
 maintainers:
@@ -22,3 +49,8 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
