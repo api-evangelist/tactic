@@ -39,7 +39,7 @@ x-backed-by:
 - lux-capital
 x-tier: stub
 x-tier-reason: acquired-no-api-surface
-x-status: acquired
+x-status: defunct
 x-acquired-by: taxbit
 x-acquired-date: '2023-01'
 specificationVersion: '0.23'
